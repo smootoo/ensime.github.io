@@ -6,6 +6,8 @@ title: Installation
 
 You will need a version of Vim built with Python plugin support. This is standard on most distribution packages these days. Try `vim --version | grep +python` to confirm.
 
+If you're using Ubuntu, as of 16.04, default vim doesn't have python configured. See here for options to get vim with python. http://askubuntu.com/questions/764882/ubuntu-16-04-vim-without-python-support. Note you need python2 support. Make sure pip installs below are for python2 as well (you might need to use pip2).
+
 1. Install external Python modules that `ensime-vim` requires to function:
 
     ```bash
